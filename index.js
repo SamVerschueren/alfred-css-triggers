@@ -1,11 +1,14 @@
 'use strict';
 const alfy = require('alfy');
 const triggers = require('./lib/css-triggers');
+const utils = require('./lib/utils');
 
-triggers.getData()
+const parsed = utils.parse(alfy.input);
+
+triggers.getData(parsed.engine)
 	.then(props => {
 		const items = alfy
-			.inputMatches(props, 'name')
+			.matches(parsed.input, props, 'name')
 			.map(item => {
 				const url = `https://csstriggers.com/${item.name}`;
 

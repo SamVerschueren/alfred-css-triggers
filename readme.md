@@ -2,7 +2,7 @@
 
 > Search through [csstriggers.com](https://csstriggers.com/)
 
-<img src="screenshot.png" width="694">
+<img src="screenshot.png" width="885">
 
 
 ## Install
@@ -20,6 +20,15 @@ In Alfred, type `css`, <kbd>Enter</kbd>, and your query.
 
 Select an item and press <kbd>Enter</kbd> to go to the [csstriggers.com](https://csstriggers.com) documentation.<br>
 Hold <kbd>Alt</kbd> to show the subsequent update pipeline.
+
+### Engines
+
+Optionally, you can pass the name of the engine as argument. The following engines are supported.
+
+- `blink` (default)
+- `gecko`
+- `webkit`
+- `edge`
 
 
 ## Related
