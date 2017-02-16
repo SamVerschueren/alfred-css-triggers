@@ -1,0 +1,49 @@
+{
+  "name": "alfred-css-triggers",
+  "version": "0.0.0",
+  "description": "Alfred workflow to search through csstriggers.com",
+  "license": "MIT",
+  "repository": "SamVerschueren/alfred-css-triggers",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "icon",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy",
+    "csstriggers",
+    "css",
+    "triggers",
+    "layout",
+    "paint",
+    "composite",
+    "pipeline",
+    "performance"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "repeating": "^3.0.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "*",
+    "xo": "*"
+  }
+}
